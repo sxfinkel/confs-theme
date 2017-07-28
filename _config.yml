@@ -1,11 +1,11 @@
 # Site settings
-title: My Blog
-email: coolwebconfs@gmail.com
-description: My simple blog.
-baseurl: ""
-url: ""
-twitter_username: 
-avatar: "" # Set footer avatar
+title: WebDev Blog
+email: sxbarrows@gmail.com
+description: WebDev blog.
+baseurl: "/dev-blog"
+
+twitter_username: isusieq
+avatar: "https://pbs.twimg.com/profile_images/1374784582/susan3_400x400.JPG" # Set footer avatar
 paginate: 3
 
 # Build settings
@@ -19,8 +19,8 @@ defaults:
       path: ""
       type: "posts"
     values:
-      author: "My Author" # Set default author name
-      categories: "cats"
+      author: "Susan Barrowsr" # Set default author name
+      categories: "development"
       layout: "post"
       comments: true
   -
